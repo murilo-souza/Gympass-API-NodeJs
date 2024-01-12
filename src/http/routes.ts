@@ -8,7 +8,7 @@ export async function appRoutes(app: FastifyInstance) {
   app.post('/users', register)
   app.post('/sessions', authenticate)
 
-  console.log('tetsint branch')
+  console.log('tet')
   /** Authenticated */
   app.get('/me', { onRequest: [verifyJWT] }, profile)
 }
