@@ -24,6 +24,8 @@ app.register(userRoutes)
 app.register(gymsRoutes)
 app.register(checkInsRoutes)
 
+console.log('Teeeeest')
+
 app.setErrorHandler((error, _, reply) => {
   if (error instanceof ZodError) {
     return reply
