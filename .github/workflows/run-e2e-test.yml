@@ -1,6 +1,6 @@
 name: Run E2E Tests
 
-on: [pull-request]
+on: [pull_request]
 
 jobs:
   name: run-e2e-tests
